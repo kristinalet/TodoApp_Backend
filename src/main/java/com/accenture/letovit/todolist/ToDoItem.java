@@ -6,6 +6,7 @@ public class ToDoItem {
 	private String text;
 	private boolean finished;
 	private String createdAt;
+	private String id;
 	
 	//Generated
 	@Override
@@ -44,6 +45,14 @@ public class ToDoItem {
 
 	public void setCreatedAt(String createdAt) {
 		this.createdAt = createdAt;
+	}
+
+	public String getId() {
+		return id;
+	}
+
+	public void setId(String id) {
+		this.id = id;
 	}
 	
 	

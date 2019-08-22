@@ -23,6 +23,8 @@ public class ToDoItemConverter {
 		output.setFinished(input.isFinished());
 		output.setText(input.getText());
 		output.setTitle(input.getTitle());
+		
+		output.setId(input.getIdentifier());
 
 		return output;
 	}
