@@ -11,6 +11,15 @@ import javax.persistence.Id;
 		private String text;
 		private boolean finished;
 		private String createdAt;
+		private String importance;
+		
+		
+		public String getImportance() {
+			return importance;
+		}
+		public void setImportance(String importance) {
+			this.importance = importance;
+		}
 		public String getIdentifier() {
 			return identifier;
 		}

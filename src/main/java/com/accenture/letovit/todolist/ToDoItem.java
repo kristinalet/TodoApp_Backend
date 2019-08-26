@@ -7,6 +7,7 @@ public class ToDoItem {
 	private boolean finished;
 	private String createdAt;
 	private String id;
+	private String importance;
 	
 	//Generated
 	@Override
@@ -53,6 +54,14 @@ public class ToDoItem {
 
 	public void setId(String id) {
 		this.id = id;
+	}
+
+	public String getImportance() {
+		return importance;
+	}
+
+	public void setImportance(String importance) {
+		this.importance = importance;
 	}
 	
 	
